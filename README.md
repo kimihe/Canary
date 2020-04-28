@@ -13,7 +13,7 @@ A Decentralized Distributed DL Architecture in the Multi-interface Network.
 There are three main folders:
 
 * `model`: the models used in DL training, incluing common CNN, AlexNet, VGG19, Inception-V1/V3 and ResNeXt101/152.
-* `8bit_quantization`: building gradient sketch by transferring float32-based data presentation into INT8-based quantization, supporting both PyTorch and TensorFlow.
+* `8bit_quantization`: building gradient sketch by transferring float32-based data presentation into INT8-based quantization.
 * `topology`: PS on FatTree and AllReduce on BCube.
 
 # Dataset
