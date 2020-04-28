@@ -1,18 +1,19 @@
 # Canary
 <!-- > All the practice of Canary is for project Griffin, and I hope it is the last sacrificed bird. -->
 
-A Decentralized Distributed DL Architecture in Multi-interface Network.
+A Decentralized Distributed DL Architecture in the Multi-interface Network.
 
 
-# Prerequisite
+# Prerequisites
 * [PyTorch](https://pytorch.org/)
 * [Open MPI](https://www.open-mpi.org/)
+* [NCCL](https://developer.nvidia.com/nccl)
 
 # Overview
 There are three main folders:
 
-* `model`: the models used in DL training, incluing common CNN. AlexNet, VGG19.
-* `8bit_quantization`: building gradient sketch by transferring float32 into 8bit quantization.
+* `model`: the models used in DL training, incluing common CNN. AlexNet, VGG19, inception and ResNeXt.
+* `8bit_quantization`: building gradient sketch by transferring float32-based data presentation into INT8-based quantization, supporting both PyTorch and TensorFlow.
 * `topology`: PS on FatTree and AllReduce on BCube.
 
 # Dataset
