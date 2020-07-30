@@ -7,14 +7,15 @@ A Decentralized Distributed DL Architecture in the Multi-interface Network.
 # Prerequisites
 * [PyTorch](https://pytorch.org/)
 * [Open MPI](https://www.open-mpi.org/)
-* [NCCL](https://developer.nvidia.com/nccl)
+* [NCCL](https://developer.nvidia.com/nccl) (optional)
+* [CUDA](https://developer.nvidia.com/cuda-toolkit) (optional)
 
 # Overview
 There are three main folders:
 
 * `model`: the models used in DL training, incluing common CNN, AlexNet, VGG19, Inception-V1/V3 and ResNeXt101/152.
 * `8bit_quantization`: data quantization by transferring numbers from FP32 into INT8 format.
-* `Quantization_aware_Training_for_FP_BP`: The 8-bit Quantization-aware-Training (QAT) for both forward (papameter quantization) and backward (gradient sketch) propagation stages.
+* `QAT_for_FP_BP`: The 8-bit Quantization-aware-Training (QAT) for both forward (papameter quantization) and backward (gradient sketch) propagation stages.
 * `topology`: PS on FatTree and AllReduce on BCube.
 
 

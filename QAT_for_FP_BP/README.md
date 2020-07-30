@@ -1,4 +1,4 @@
-# Quantization-aware-Training 
+# Quantization-aware-Training (QAT) 
 This module is about the 8-bit Quantization-aware-Training (QAT) for both forward and backward propagation stages.  
 The demo codes are based on AlexNet with CIFAR-10 dataset.  
 QAT compresses the model parameters and gradients for FP and BP, respectively.
