@@ -3,13 +3,17 @@ This module is about the 8-bit Quantization-aware-Training (QAT) for both forwar
 The demo codes are based on AlexNet with CIFAR-10 dataset.  
 QAT compresses the model parameters and gradients for FP and BP, respectively.
 
+### Recommended Development Environment
+* PyTorch-1.4.0
+* CUDA-10.1 (if GPU is enabled)
+
 ### Alexnet_qat  Folder Structure:  
 
 * `Alex_qat.py`     : main entry of QAT training on alexnet
  
 * `Timer.py`        : information log and time tools used in training procudre
 
-* `config.py`       : configuration of this project  
+* `config.py`       : detailed configuration of this project  
  
 * `quantizerAlex.py`: quantizer API  
                 
