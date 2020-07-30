@@ -5,7 +5,7 @@ QAT compresses the model parameters and gradients for FP and BP, respectively.
 
 ### Recommended Development Environment
 * PyTorch-1.4.0
-* CUDA-10.1 (if GPU is enabled)
+* CUDA-10.1 (if GPUs are available)
 
 ### Alexnet_qat  Folder Structure:  
 
